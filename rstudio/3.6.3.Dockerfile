@@ -1,6 +1,6 @@
 FROM rocker/rstudio:3.6.3
 
-# tidyverse
+# For tidyverse
 RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     libxml2-dev \
     libcairo2-dev \
